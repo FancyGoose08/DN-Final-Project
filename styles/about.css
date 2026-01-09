@@ -1,0 +1,35 @@
+/* Content */
+.content h2 {
+    text-align: center;
+}
+
+.content article {
+    margin: 25px 25px;
+    align-items: center;
+}
+
+.content article h3 {
+    text-align: center;
+}
+
+.content article .person-row {
+    display: flex;
+    align-items: center;
+}
+
+.content article .person-row .headshot {
+    width: 300px;
+    height: auto;
+    align-items: center;
+    border-style: solid;
+    border-width: 3px;
+}
+
+.content article .person-row .description {
+    margin: 0 25px;
+    padding: 30px 0px 30px 75px;
+    text-align: left;
+}
+
+
+
