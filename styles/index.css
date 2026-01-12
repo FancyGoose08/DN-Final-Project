@@ -10,10 +10,6 @@ body {
     min-height: 100vh;
 }
 
-hr {
-    display: none; 
-}
-
 /* Generics */
 .constrain {
     margin: 0 auto;
@@ -110,6 +106,88 @@ main .title .text-box h1{
     display: inline-block;
 }
 
+.content {
+    margin: 0 75px 0 75px;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: black;
+    width: 75%;
+    margin: 20px auto;
+}
+
+/* hero */
+
+.hero nav ul li {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.hero nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.hero nav ul li a:link {
+    color: #0000FF
+}
+
+.hero nav ul li a:visited {
+    color: #551a8b;
+}
+
+.hero nav ul li a:hover {
+    text-decoration: underline solid 2px;
+}
+
+/* intro-dns */
+
+.intro-dns p a {
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.intro-dns p a:link {
+    color: #0000FF;
+}
+
+.intro-dns p a:visited {
+    color: #551a8b;
+}
+
+.intro-dns p a:hover {
+    text-decoration: underline solid 2px;
+}
+
+/* problem-preview */
+
+/* solution-preview */
+
+/* about */
+
+.about a {
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.about a:link {
+    color: #0000ff;
+}
+
+.about a:visited {
+    color: #551a8b;
+}
+
+.about a:hover {
+    text-decoration: underline solid 2px;
+
+}
+
 /* Footer */
 footer {
     display: flex;
@@ -117,6 +195,7 @@ footer {
     justify-content: space-between;
     padding: 10px 25px;
     background-color: lightgray;
+    margin-top: 30px;
 }
 
 footer nav a {
