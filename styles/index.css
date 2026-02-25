@@ -6,7 +6,7 @@ html, body {
 }
 
 body {
-    background-color: #1c74a0;
+    background: #1c74a0 url(../imgs/site_background.jpg) center center/cover no-repeat fixed;
     min-height: 100vh;
 }
 
@@ -21,6 +21,9 @@ body {
   background-color: white;
   min-height: 100vh;    
   padding-bottom: 1px;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  box-sizing: border-box;
 }
 
 /* Header */
@@ -61,6 +64,7 @@ header h1 {
     box-shadow: 5px 5px;
     border-radius: 5px;
     outline-style: solid;
+    outline-width: 2px;
     transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
 
