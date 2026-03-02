@@ -6,7 +6,7 @@ html, body {
 }
 
 body {
-    background: #890d0d url(../imgs/header_background.jpg) center center/cover no-repeat fixed;
+    background: grey url(../imgs/header_background.jpg) center center/cover no-repeat fixed;
     min-height: 100vh;
 }
 
@@ -29,7 +29,7 @@ body {
 /* Header */
 header {
     /*background-color: #acadad;*/
-    background-color: #890d0d;
+    background-color: #e11d1d;
 }
 
 header .constrain{
@@ -87,7 +87,9 @@ header h1 {
 main .title {
     margin: 0;
     padding: 0;
-    background: gray url(../imgs/red_background.jpg) center center/cover no-repeat scroll;
+    background: gray url(../imgs/Red-background2.jpg) center center/cover no-repeat scroll;
+    border-top: solid white 2px;
+    border-bottom: solid black 2px;
 }
 
 main .title .text-box {
