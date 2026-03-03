@@ -10,4 +10,9 @@
     width: 900px;
     height: auto;
     border: solid black 3px;
+    box-shadow: 0 0 15px grey;
+}
+
+.content article h3, .content article h2 {
+    text-decoration: underline 2px;
 }
