@@ -3,6 +3,11 @@
     width: 20%;
 }
 
+.vertical-line {
+    border-left: solid gray 2px;
+    height: 200px;
+}
+
 .solution-lm img {
     display: block;
     margin-left: auto;
@@ -11,6 +16,15 @@
     height: auto;
     border: solid black 3px;
     box-shadow: 0 0 15px grey;
+}
+
+.lm-description {
+    display: flex;
+    justify-content: center;
+}
+
+.lm-description article {
+    margin: 10px 20px;
 }
 
 .content article h3, .content article h2 {
